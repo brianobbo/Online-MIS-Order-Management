@@ -1,0 +1,142 @@
+
+
+
+html, body{
+    font-size: 12px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*** CREATE DRUG***/
+.form-container{
+    width: 80%;
+    alignment: center;
+    margin: 20px;
+    padding: 10px;
+    background: #313541;
+    color: white;
+    /*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);*/
+}
+
+
+.form-container2{
+    width: 35%;
+    alignment: center;
+    margin: 20px;
+    padding: 10px;
+    background: #313541;
+    color: white;
+}
+
+.input-group{
+    border: none;
+    outline: none;
+    display: flex;
+    /*margin-bottom: 0;*/
+}
+
+.select{
+    width: 150px;
+}
+
+
+.input-group > input[type='text']:hover{
+    color: white;
+    background: gray;
+}
+
+.input-group > input[type='number']:hover{
+    color: white;
+    background: gray;
+}
+
+.input-group > textarea:hover{
+    color: white;
+    background: gray;
+}
+
+.input-group > select:hover{
+    color: white;
+    background: gray;
+}
+
+.input-group > input[type='submit']:hover{
+    color: white;
+    background: gray;
+}
+
+.input-group > input[type="submit"]{
+    border-radius: 20px;
+    background: seagreen;
+    color: white;
+}
+
+
+
+
+/*** GRID VIEW  ****/
+#gridview {
+    text-align:center;
+}
+
+.ig > img{
+    object-fit: cover;
+    width: 5%;
+    height: 5%;
+}
+
+div.image {
+    margin: 10px;
+    display: inline-block;
+}
+
+div.image img {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #ccc;
+}
+
+div.image img:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.32), 0 0 0 0px rgba(0,0,0,0.16);
+}
+
+#grid{
+    margin-bottom:30px;
+}
+
+/* Responsive Styles */
+
+@media screen and (min-width: 1224px) {
+    div.image {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1044px) and (max-width: 1224px) {
+    div.image {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 845px) and (max-width: 1044px) {
+    div.image {
+        width: 200px;
+    }
+}
+
+.item{
+    background: darkslategrey;
+    color: white;
+
+}
+
+label{
+    margin-left: 10px;
+}
+
+
+
+
+
