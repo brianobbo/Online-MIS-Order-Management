@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/viewCart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:iconTint="@color/colorwhite"
+        android:menuCategory="secondary"
+        android:orderInCategory="1"
+        android:title="view cart"
+        app:showAsAction="always"
+        />
+
+</menu>
+
